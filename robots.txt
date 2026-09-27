@@ -1,0 +1,11 @@
+# robots.txt — K. Arumuga Nadar & Co
+# https://asjpipescaffolding.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Block the thank-you page from being indexed (no SEO value)
+Disallow: /thank-you.html
+
+# Sitemap location
+Sitemap: https://asjpipescaffolding.com/sitemap.xml

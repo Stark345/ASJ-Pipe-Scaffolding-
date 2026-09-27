@@ -1,0 +1,25 @@
+# ================================================================
+# Netlify Security Headers
+# File Name: _headers
+# Place in project root
+# ================================================================
+
+/*
+  # Clickjacking Protection
+  X-Frame-Options: SAMEORIGIN
+
+  # Prevent MIME Type Sniffing
+  X-Content-Type-Options: nosniff
+
+  # Control Referrer Information
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # Disable Unused Browser Features
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+
+  # Content Security Policy
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com data:; img-src 'self' data: https:; frame-src https://www.google.com https://maps.google.com; connect-src 'self' https://api.web3forms.com https://www.google-analytics.com; object-src 'none'; base-uri 'self'; form-action 'self' https://api.web3forms.com; frame-ancestors 'self';
+
+  # Optional Cross-Origin Policies
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
