@@ -1,4 +1,4 @@
-ASJ Pipe Scaffolding — Official Business Website
+﻿ASJ Pipe Scaffolding — Official Business Website
 Official website for K. Arumuga Nadar & Co — Trusted Pipe Scaffolding Contractor in Chennai, Tamil Nadu.
 
 🌐 Live Site: asjpipescaffolding.com
@@ -44,7 +44,8 @@ MS Pipe Scaffolding
 Lift Shaft Scaffolding
 GI Sheet Roofing
 Shed Works
-📍 Vadaperumbakkam, Chennai — 600060 📞 +91 94443 32210
+📍 Chennai, Tamil Nadu — 600000 📞 +91-YOUR_PHONE_NUMBER
 
 👨‍💻 Developed By
 S Jaichandran — Full-Stack Developer & AI Engineer
+
